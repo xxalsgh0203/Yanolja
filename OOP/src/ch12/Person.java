@@ -26,6 +26,11 @@ public class Person {
     public static void main(String[] args) {
         Person person = new Person();
         person.showPerson();
+
+        System.out.println(person);
+
+        Person person2 = person.getPerson();
+        System.out.println(person2);
     }
 
 }
