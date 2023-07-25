@@ -18,6 +18,11 @@ public class Person {
         System.out.println(name + "," + age);
     }
 
+    // 자기 자신을 반환하는 THIS
+    public Person getPerson(){
+        return this;
+    }
+
     public static void main(String[] args) {
         Person person = new Person();
         person.showPerson();
