@@ -51,3 +51,4 @@ public class FC12 {
 // XML, JSON, EXCEL, CVS, PDF
 // 파일입출력
 // 네트워킹, Thread
+// DB 모델링, JDBC, ...
