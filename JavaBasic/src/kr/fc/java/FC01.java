@@ -7,7 +7,7 @@ public class FC01 {
         book = new BookVO();
 
         // book 에 [자바의 정석, 35000] 을 저장하세요
-        book.title = "자바의 정석";
-        book.price = 35000;
+//        book.title = "자바의 정석";
+//        book.price = 35000;
     }
 }

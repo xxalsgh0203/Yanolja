@@ -24,5 +24,15 @@ public class FC09 {
         // System.out.println(b1.title + "\t" + b1.price);
         // title 과 price 가 private 이기 때문에 setter method 가 필요함
         // 반대로 정보은닉된 데이터를 가져오기 위해서는 getter method 가 필요함
+
+        b1.setTitle("자바");
+        b1.setPrice(10000);
+
+        System.out.println(b1.getPrice());
+        System.out.println(b1.getTitle());
+
+        BookVO b3 = new BookVO("C언어", 13000);
+
+        System.out.println(b1); // b1.toString()
     }
 }
