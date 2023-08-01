@@ -2,16 +2,16 @@ package ch02;
 
 public class CustomerTest {
     public static void main(String[] args) {
-        Customer Lee = new Customer();
-        Lee.setCustomerID(1001);
-        Lee.setCustomerName("이순신");
-        Lee.setBonusPoint(1000);
+        Customer Lee = new Customer(10010, "이순신");
+        Lee.bonusPoint = 1000;
         System.out.println(Lee.showCustomerInfo());
 
-        VIPCustomer Kim = new VIPCustomer();
-        Kim.setCustomerID(1002); // VIPCusomer class 에 정의된 함수는 아니지만 상속받아서 이미 만들어져있어 사용가능
-        Kim.setCustomerName("김유신");
-        Kim.setBonusPoint(2000);
+        VIPCustomer Kim = new VIPCustomer(10020, "김유신");
+        Kim.bonusPoint = 10000;
         System.out.println(Kim.showCustomerInfo());
+
+        Customer Koo = new VIPCustomer(10030, "홍길동"); // Customer 클래스 멤버 변수 메서드만 사용가능
+        Koo.bonusPoint = 5000;
+        System.out.println(Koo.showCustomerInfo());
     }
 }

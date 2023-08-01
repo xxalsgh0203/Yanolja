@@ -7,44 +7,13 @@ public class Customer {
     int bonusPoint; // default 접근자 -> 해당 패키지 내에서만 접근 가능
     double bonusRatio;
 
-    public Customer(){
-        this.customerGrade = "SILVER";
-        this.bonusRatio = 0.01;
-
-        System.out.println("Customer call()");
-    }
-
-    public int getCustomerID() {
-        return customerID;
-    }
-
-    public void setCustomerID(int customerID) {
+    public Customer(int customerID, String customerName){
         this.customerID = customerID;
-    }
-
-    public String getCustomerName() {
-        return customerName;
-    }
-
-    public void setCustomerName(String customerName) {
         this.customerName = customerName;
-    }
 
-    public String getCustomerGrade() {
-        return customerGrade;
-    }
-
-    public int getBonusPoint() {
-        return bonusPoint;
-    }
-
-    public void setBonusPoint(int bonusPoint) {
-        this.bonusPoint = bonusPoint;
-    }
-
-    public int calcPrice(int price){
-        bonusPoint += price * bonusRatio;
-        return price;
+        customerGrade = "SILVER";
+        bonusRatio = 0.01;
+        System.out.println("Customer call()");
     }
 
     public String showCustomerInfo(){
