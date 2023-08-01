@@ -1,4 +1,4 @@
-package ch02;
+package ch04;
 
 public class Customer {
     protected int customerID; // 하위 클래스에서 접근할 수 있게끔
@@ -17,6 +17,11 @@ public class Customer {
     }
 
     public String showCustomerInfo(){
-        return customerName + "님의 등급은 " + customerGrade + "이며, 보너스 포인트는 " + bonusPoint + "입니다";
+        return customerName + "님의 등급은 " + customerGrade + "이며, 보너스 포인트는 " + bonusPoint + "입니다 ";
+    }
+
+    public int calcPrice(int price){    // 보너스 포인트만 적립함
+        bonusPoint += price * bonusRatio;
+        return price;
     }
 }
