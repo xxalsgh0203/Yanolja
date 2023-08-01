@@ -23,10 +23,11 @@ public class VIPCustomer extends Customer {
         this.salesRatio = salesRatio;
     }
 
-//    @Override
-//    public int calcPrice(int price){    // 보너스 포인트만 적립함
-//        bonusPoint += price * bonusRatio;
-//        price -= (int)(price * salesRatio);
-//        return super.calcPrice(price);
-//    }
+    public String getAgentID() {
+        return agentID;
+    }
+
+    public void setAgentID(String agentID) {
+        this.agentID = agentID;
+    }
 }
