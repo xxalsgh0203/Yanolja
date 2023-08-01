@@ -8,6 +8,8 @@ public class VIPCustomer extends Customer {
         bonusRatio = 0.05;
         salesRatio = 0.1;
         customerGrade = "VIP";
+
+        System.out.println("VIP Customer call()");
     }
 
     public double getSalesRatio() {

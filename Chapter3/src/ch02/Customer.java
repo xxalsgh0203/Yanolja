@@ -10,6 +10,8 @@ public class Customer {
     public Customer(){
         this.customerGrade = "SILVER";
         this.bonusRatio = 0.01;
+
+        System.out.println("Customer call()");
     }
 
     public int getCustomerID() {
