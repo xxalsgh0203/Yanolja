@@ -1,0 +1,2 @@
+package ch13.domain.userinfo.dao.mysql;public class UserInfoMySqlDao {
+}
