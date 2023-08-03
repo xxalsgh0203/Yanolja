@@ -17,13 +17,13 @@ public interface Calc {
         System.out.println("정수의 사칙연산을 제공합니다");
     }
 
-    private void myMethod(){
-        System.out.println("myMethod");
-    }
-
-    private static void myStaticMethod(){
-        System.out.println("myStaticMethod");
-    }
+//    private void myMethod(){
+//        System.out.println("myMethod");
+//    }
+//
+//    private static void myStaticMethod(){
+//        System.out.println("myStaticMethod");
+//    }
 
     static int total(int[] arr){
         int total = 0;
