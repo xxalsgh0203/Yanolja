@@ -12,6 +12,5 @@ public class PlayerTest {
         SuperLevel player3 = new SuperLevel();
         player1.upgradeLevel(player3);
         player1.play(3);
-
     }
 }
