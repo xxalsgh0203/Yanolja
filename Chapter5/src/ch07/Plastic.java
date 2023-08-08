@@ -1,4 +1,4 @@
-package ch06;
+package ch07;
 
 public class Plastic {
     @Override

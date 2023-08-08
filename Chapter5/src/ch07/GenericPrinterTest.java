@@ -1,4 +1,4 @@
-package ch06;
+package ch07;
 
 public class GenericPrinterTest {
     public static void main(String[] args) {
