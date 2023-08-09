@@ -8,4 +8,5 @@ public abstract class Animal { // 추상 클래스  -> 기능이 비슷한 것�
     public void move(){
         System.out.println("동물이 이동합니다.");
     }
+
 }
