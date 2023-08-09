@@ -8,6 +8,8 @@ public class FC21 {
     public static void main(String[] args) {
         // TV tv = new TV();    RemoteController X
         // 리모콘으로 TV 클래스를 동작시켜보세요.
+        // 다형성 ? -> 클래스, 상속, 재정의, Upcasting, 동적바인딩
+        // 다형성 사용하는 이유? 하위클래스의 동작방식을 몰라도 하위클래스의 동작방식으로 상위클래스를 동작시킬수 있음
 
         RemoteController tv1 = new TV();
         tv1.chUp();
