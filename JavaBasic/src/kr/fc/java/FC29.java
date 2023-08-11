@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class FC29 {
     public static void main(String[] args) {
-        // 키보드로 부터 데이터를 입력
+        // 키보드로 부터 데이터를 입력 -> Scanner
         // 키보드(외부장치) : System.in / 모니터장치(콘솔) : System.out
         Scanner scanner = new Scanner(System.in); // 키보드로부터 입력받기 위해 scanner 객체 생성 후 생성자 통해 연결
         List<BookVO> list = new ArrayList<BookVO>();
