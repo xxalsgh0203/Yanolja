@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88de50bb-6aa1-43dc-bd50-9a57f7e6223f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaBasic/member.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/java/FC35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.Git&amp;Github/1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.Git&amp;Github/2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.Git&amp;Github/3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter3/src/ch11/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter3/src/ch11/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter3/src/ch11/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter3/src/ch11/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter3/src/ch11/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter3/src/ch11/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter3/src/ch11/CompleteCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter3/src/ch11/CompleteCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch05/ArrayListStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch05/ArrayListStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch05/IntArrayStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch05/IntArrayStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch07/TravelCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch07/TravelCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch07/TravelCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch07/TravelCustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch09/ArrayIndexException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch09/ArrayIndexException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch09/AutoCloseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch09/AutoCloseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch09/AutoCloseableObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch09/AutoCloseableObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch09/FileExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch09/FileExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch09/ThrowsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch09/ThrowsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter6/src/ch09/temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/src/ch09/temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/java/FC01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/java/FC01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/java/FC02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/java/FC02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/java/FC05.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/java/FC05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/java/FC07.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/java/FC07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/model/BookVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/out/production/JavaBasic/kr/fc/model/BookVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/src/java/FC25.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/src/java/FC25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/java/FC30.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/java/FC30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/java/FC31.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/java/FC31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/java/FC33.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/java/FC33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/java/FC34.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/java/FC34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/poly2/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/src/kr/fc/poly2/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHw/out/production/JavaHw/hw0719/q1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHw/out/production/JavaHw/hw0719/q2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHw/out/production/JavaHw/hw0719/q3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHw/out/production/JavaHw/hw0719/q4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHw/src/JavaHw2/Questions" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaHw/src/JavaHw2/Questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/out/production/OOP/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/out/production/OOP/ch12/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch12/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch13/Bus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch13/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch13/Subway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch13/TakeTransTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch15/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch15/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch15/Taxi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch16/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch16/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch17/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch17/CompanyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch18/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch18/CarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch18/CarFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch21/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ch21/BookTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/July">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2U5igRMj8IGdoH6C56V2BmDPDE9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e46da49d785d04b011c4fca5f190aee7&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="JulyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="July.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.July.JulyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88de50bb-6aa1-43dc-bd50-9a57f7e6223f" name="Changes" comment="" />
+      <created>1692235955740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692235955740</updated>
+      <workItem from="1692235957703" duration="1944000" />
+      <workItem from="1692246047958" duration="109000" />
+      <workItem from="1692246160492" duration="40000" />
+      <workItem from="1692246204774" duration="44000" />
+      <workItem from="1692246252212" duration="164000" />
+      <workItem from="1692246419617" duration="84000" />
+      <workItem from="1692246516234" duration="470000" />
+      <workItem from="1692247065723" duration="154000" />
+      <workItem from="1692247266886" duration="222000" />
+      <workItem from="1692247560140" duration="42000" />
+      <workItem from="1692247858722" duration="731000" />
+      <workItem from="1692249678716" duration="738000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
