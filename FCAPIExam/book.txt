@@ -1,0 +1,26 @@
+// XML -> data : 속성을 부여할수 있다는 장점(정보 표현이 디테일함)이 있지만 데이터가 너무 크다는 단점이 존재한다.
+/// -> json 표기법의 등장
+
+<books>
+    <book>
+        <title>C언어</title>
+        <company>영진출판사</company>
+        <name>나길동</name>
+        <price>30000</price>
+    </book>
+    <book>
+        <title>C언어</title>
+        <company>영진출판사</company>
+        <name>나길동</name>
+        <price>30000</price>
+    </book>
+</books>
+
+// json : Javascript object Notation is a lightweight data interchange format.
+
+// JSON array
+[
+    {"title" : "C언어", "company":"영진출판사", "name":"나길동", "price":30000}, // JSON Object
+    {"title" : "C언어", "company":"영진출판사", "name":"나길동", "price":30000},
+    {"title" : "C언어", "company":"영진출판사", "name":"나길동", "price":30000},
+]
