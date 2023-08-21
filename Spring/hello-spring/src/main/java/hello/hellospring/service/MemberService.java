@@ -9,7 +9,11 @@ import java.util.Optional;
 
 // 서비스는 회원 레포지토리와 도메인을 활용하여 비지니스 로직을 구현
 public class MemberService {
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+    // DIE
+    public MemberService(MemberRepository memberRepository){
+        this.memberRepository = memberRepository;
+    }
 
     // 회원가입
     public long join(Member member){
