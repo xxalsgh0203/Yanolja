@@ -3,6 +3,7 @@ package org.example;
 import com.google.gson.Gson;
 import org.example.model.Book;
 
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -39,5 +40,14 @@ public class API03 {
         Gson gson = new Gson();
         String json = gson.toJson(books);
         System.out.println(json);
+
+        try{
+            FileWriter fw = new FileWriter("books1.json");
+            fw.write(json);
+            fw.close();
+            System.out.println("books1.json file created");
+        }catch(Exception e){
+            e.printStackTrace();
+        }
     }
 }
