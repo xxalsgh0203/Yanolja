@@ -1,7 +1,7 @@
 package org.example;
 
-public class AlphaData implements Runnable{
-
+public class AlphaData implements Runnable{ // 스레드가 실행해야 하는것
+// public class AlphaData extends Thread 로도 쓸 수 있음. 이렇게 하면 클래스가 스레드가 됨
     @Override
     public void run() {
         try{
