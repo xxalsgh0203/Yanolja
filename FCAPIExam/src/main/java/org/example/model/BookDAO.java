@@ -2,6 +2,9 @@ package org.example.model;
 // DAO(class) : JDBC -> Mapper(interface) : Mybatis -> Repository(interface) : JPA
 //                      Connection POOL -> HikariCP
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
 public class BookDAO { // CRUD
     private Connection conn;
     private Statement st; // 잘 사용하지 x
@@ -53,5 +56,36 @@ public class BookDAO { // CRUD
         }
 
         return cnt;
+    }
+
+    // 전체 리스트를 가져오는 메서드를 정의
+    public List<Book> bookList(){
+        String SQL = "select * from tblbook";
+        getConnection();
+        List<Book> blist = new ArrayList<>();
+        try{
+            ps = conn.prepareStatement(SQL);
+            rs = ps.executeQuery();
+
+            while(rs.next()){
+                int num = rs.getInt("num");
+                String title = rs.getString("title");
+                String company = rs.getString("company");
+                String name = rs.getString("name");
+                int price = rs.getInt("price");
+
+                // 묶고(VO) -> 담고(List)
+                Book book = new Book(num, title, company, name, price);
+                blist.add(book);
+            }
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        finally {
+            dbClose();
+        }
+
+        return blist;
     }
 }
