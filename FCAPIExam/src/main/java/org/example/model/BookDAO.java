@@ -155,4 +155,34 @@ public class BookDAO implements BookRepository{ // CRUD
         }
         return cnt;
     }
+
+    @Override
+    public List<Book> getLikeBooks(String search) {
+        String SQL = "select * from where title like ?";
+        getConnection();
+        List<Book> blist = new ArrayList<>();
+        try {
+            ps = conn.prepareStatement(SQL);
+            ps.setString(1, "%" + search + "%");
+            rs = ps.executeQuery();
+
+            while (rs.next()) {
+                int num = rs.getInt("num");
+                String title = rs.getString("title");
+                String company = rs.getString("company");
+                String name = rs.getString("name");
+                int price = rs.getInt("price");
+
+                // 묶고(VO) -> 담고(List)
+                Book book = new Book(num, title, company, name, price);
+                blist.add(book);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            dbClose();
+        }
+        return blist;
+    }
 }
