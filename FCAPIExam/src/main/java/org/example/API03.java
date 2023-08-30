@@ -32,7 +32,7 @@ public class API03 {
             int price = Integer.parseInt(scan.nextLine());
 
             // VO 구조에 묶고 list 에 담아
-            Book b = new Book(title, company, name, price);
+            Book b = new Book(1, title, company, name, price);
             books.add(b);
         }
 

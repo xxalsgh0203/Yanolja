@@ -33,6 +33,24 @@ public class BookDAO { // CRUD
         }
     }
 
+    public int bookUpdate(Book vo){
+        String SQL = "update tblbook set company=?,name=?,price=? where num=?";
+        int cnt = -1;
+        getConnection();
+        try{
+            ps = conn.prepareStatement(SQL);
+            ps.setString(1, vo.getCompany());
+            ps.setString(2, vo.getName());
+            ps.setInt(3, vo.getPrice());
+            ps.setInt(4, vo.getNum());
+            cnt = ps.executeUpdate();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        return cnt;
+    }
+
     //  저장 기능
     public int bookRegister(Book book){
         // SQL 문장에 들어있는 ? => 파라미터
