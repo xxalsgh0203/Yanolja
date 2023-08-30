@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // JDBC :  생산성이 떨어진다(시간이 소비된다). 유지보수가 어렵다
-public class BookDAO { // CRUD
+public class BookDAO implements BookRepository{ // CRUD
     private Connection conn;
     private Statement st; // 잘 사용하지 x
     private PreparedStatement ps; // SQL 문장에 parameter 가 있는 경우에 사용(?)
@@ -34,6 +34,7 @@ public class BookDAO { // CRUD
             e.printStackTrace();
         }
     }
+
 
     public int bookUpdate(Book vo) {
         String SQL = "update tblbook set company=?,name=?,price=? where num=?";
@@ -136,5 +137,22 @@ public class BookDAO { // CRUD
         }
 
         return blist;
+    }
+
+    @Override
+    public int bookDelete(int num) {
+        String SQL = "delete from tblbook where num=?";
+        int cnt = -1;
+        getConnection();
+        try{
+            ps = conn.prepareStatement(SQL);
+            ps.setInt(1, num);
+            cnt = ps.executeUpdate();
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            dbClose();
+        }
+        return cnt;
     }
 }
