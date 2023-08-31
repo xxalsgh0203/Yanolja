@@ -5,12 +5,14 @@ import hello.hellospring.repository.MemberRepository;
 import hello.hellospring.repository.MemoryMemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
 // 서비스는 회원 레포지토리와 도메인을 활용하여 비지니스 로직을 구현
 //@Service // 컨트롤러에 연결하기 위해 서비스임을 스프링에게 알려야함
+@Transactional
 public class MemberService {
     private final MemberRepository memberRepository;
     // DIE
